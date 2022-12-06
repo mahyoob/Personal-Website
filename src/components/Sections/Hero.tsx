@@ -1,16 +1,15 @@
-import { ChevronDownIcon } from '@heroicons/react/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FC, memo } from 'react';
+import {FC, memo} from 'react';
 
-import { heroData, SectionId } from '../../data/data';
+import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 
 const Hero: FC = memo(() => {
-  const { imageSrc, name, description, actions } = heroData;
+  const {imageSrc, name, description, actions} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
@@ -32,7 +31,7 @@ const Hero: FC = memo(() => {
               <Socials />
             </div>
             <div className="flex w-full justify-center gap-x-4">
-              {actions.map(({ href, text, primary, Icon }) => (
+              {actions.map(({href, text, primary, Icon}) => (
                 <Link href={href} key={text}>
                   <a
                     className={classNames(

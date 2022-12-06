@@ -8,11 +8,7 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import profilepic from '../images/Mahyoob-Sarrawi-Pic.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -101,12 +97,12 @@ export const aboutData: About = {
   description: `Senior front-end developer with 4+ years of experience designing and
    building responsive web design and mobile apps. Proficient with CSS and JS Frameworks "specially React", with extensive knowledge of UX and user psychology. Notable achievements include boosting the performance and web vitals of several websites.`,
   aboutItems: [
-    { label: 'Location', text: 'Palestine, Nablus', Icon: MapIcon },
-    { label: 'Age', text: '28', Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Palestinian', Icon: FlagIcon },
-    { label: 'Interests', text: 'Workout, Movies, Games', Icon: SparklesIcon },
-    { label: 'Study', text: 'Al Najah National University', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'InnoTech', Icon: OfficeBuildingIcon },
+    {label: 'Location', text: 'Palestine, Nablus', Icon: MapIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Palestinian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Workout, Movies, Games', Icon: SparklesIcon},
+    {label: 'Study', text: 'Al Najah National University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'InnoTech', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -268,7 +264,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <p> Worked with multi nationalities teams and incorporated to deliver features  based on users requirements to a huge product which is specialized in Private Equity solutions,</p>
-        <ul style={{ listStyle: "disc" , paddingLeft: 18}}>
+        <ul style={{listStyle: "disc" , paddingLeft: 18}}>
           <li>Achieved great enhancement to the performance of  front-end with user experience.</li>
           <li>Enhanced the SEO and web vitals by 40%.</li>
           <li>Created a custom client dashboard that reduced support tickets by 50%.</li>
@@ -360,7 +356,7 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   // {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https:/www.linkedin.com/in/mahyoob-sarrawi-73853a205' },
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https:/www.linkedin.com/in/mahyoob-sarrawi-73853a205'},
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
   // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
